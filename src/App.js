@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navegacion from './Navegacion.js';
 import Iphone from './Iphone.js';
@@ -9,11 +9,24 @@ import Watch from './Watch.js';
 import Tv from './AppleTV.js';
 import Music from './AppleMusic.js';
 import Support from './AppleSupport.js';
+import IpadBanner from './img/IpadProBanner.jpg';
+import IphoneBanner from './img/Iphone11Banner.jpg';
+
+class BannerSup extends Component{
+  render(){
+    return(
+      <div>
+        <img src={IphoneBanner} alt="Banner Iphone" className="BannerSupImg"/>
+      </div>
+    );
+  }
+}
 
 function App(){
   return(
     <Router>
       <div>
+      <BannerSup />
         <Navegacion/>
         <Switch>
           <Route path="/" exact component={index}/>

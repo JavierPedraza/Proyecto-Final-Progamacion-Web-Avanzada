@@ -17,3 +17,56 @@ nav{
   width: 20px;
   height: 20px;
 }
+.BannerSupImg{
+  width: 99.99%;
+  height: 5%;
+}
+.Iphone11Div{
+  border-style: inset;
+  border-width: 2px;
+  border-radius: 25px;
+}
+.Iphone11{
+  display: flex;
+  justify-content: space-around;
+  background-size: 99.99%;
+  background-image: url(./img/Iphone11Banner.jpg);
+}
+.Iphone11Title{
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+.Iphone11Pro{
+  display: flex;
+  color:white;
+  -webkit-text-stroke: 1px black;
+  justify-content: space-around;
+  background-size: 40%;
+  background-image: url(./img/Iphone11ProBanner.jpg);
+  border-style: inset;
+  border-width: 2px;
+  border-radius: 25px;
+}
+
+.MacbookProDiv{
+  display: flex;
+  color:white;
+  -webkit-text-stroke: 1px black;
+  justify-content: space-around;
+  background-size: 50%;
+  background-image: url(./img/MacPro.jpg);
+  border-style: inset;
+  border-width: 2px;
+  border-radius: 25px;
+}
+
+.socialMedia{
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  height: 50px;
+  width: 50px
+}
