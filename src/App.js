@@ -11,6 +11,7 @@ import Music from './AppleMusic.js';
 import Support from './AppleSupport.js';
 import IpadBanner from './img/IpadProBanner.jpg';
 import IphoneBanner from './img/Iphone11Banner.jpg';
+import BannerInf from './BannerInf.js';
 
 class BannerSup extends Component{
   render(){
@@ -47,6 +48,7 @@ function App(){
 const index = () => (
   <div>
     <Princ/>
+    <BannerInf/>
   </div>
 );
 

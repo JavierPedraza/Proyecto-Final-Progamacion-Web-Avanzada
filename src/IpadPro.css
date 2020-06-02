@@ -1,0 +1,7 @@
+.IpadProDiv{
+	display: flex;
+	justify-content: space-around;
+	width: 99%;
+	height: 500px;
+	background-image: url(./img/IpadProBanner.jpg);
+}

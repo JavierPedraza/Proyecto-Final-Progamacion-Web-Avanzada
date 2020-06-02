@@ -1,0 +1,6 @@
+.MacbookProDiv{
+	display: flex;
+	width: 99%;
+	height: 500px;
+	background-image: url(./img/MacPro.jpg);
+}

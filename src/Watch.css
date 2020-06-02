@@ -1,0 +1,9 @@
+.appleWatch{
+	display: flex;
+	justify-content: space-around;
+	width: 99%;
+	height: 500px;
+	background-image: url(./img/applewatch.jpg);
+	color: white;
+	-webkit-text-stroke: 1px black;
+}

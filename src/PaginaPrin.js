@@ -5,11 +5,7 @@ import macbookprojson from './json/macbookprojson.json';
 import iphone11 from './img/Iphone11.jpg';
 import iphone11pro from './img/Iphone11ProBanner.jpg';
 import MacbookProBanner from './img/MacPro.jpg';
-import facebook from './img/facebook.jpeg';
-import twitter from './img/twitter.jpeg';
-import instagram from './img/instagram.jpeg';
-
-
+import Social from './BannerInf.js';
 
 class Iphone11 extends Component{
 	state = {
@@ -68,16 +64,6 @@ class MacbookPro extends Component{
 			</div>
 		);
 	}
-}
-
-function Social(){
-	return(
-		<div className="socialMedia">
-			<a href="https://www.instagram.com/apple/" target="_blank"><img src={instagram} alt="instagram"/></a>
-			<a href="https://www.facebook.com/apple" target="_blank"><img src={facebook} alt="facebook"/></a>
-			<a href="https://twitter.com/Apple" target="_blank"><img src={twitter} alt="twitter"/></a>
-		</div>
-	);
 }
 
 function Principal(){

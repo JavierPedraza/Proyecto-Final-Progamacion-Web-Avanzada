@@ -1,0 +1,10 @@
+.appleMusic{
+	display: flex;
+	justify-content: space-around;
+	width: 99%;
+	height: 500px;
+	background-image: url(./img/appleMusic.png);
+	color: white;
+	-webkit-text-stroke: 1px black;
+	font-size: 30px;
+}
