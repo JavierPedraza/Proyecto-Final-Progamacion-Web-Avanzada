@@ -1,0 +1,11 @@
+.Location{
+	display: flex;
+	justify-content: space-around;
+	height: 500px;
+	width: 49%;
+	background-image: url(./img/mapa.png);
+	background-position: center;
+	color: white;
+	-webkit-text-stroke: 1px black;
+	font-size: 30px;
+}

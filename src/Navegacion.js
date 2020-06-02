@@ -34,6 +34,9 @@ function Navegacion(){
             <Link style={estilo} to='/support'>
                 <li>Support</li>
             </Link>
+            <Link style={estilo} to='/location'>
+                <li>Localizacion</li>
+            </Link>
     	</ul>
     </nav>
   );

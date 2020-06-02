@@ -12,6 +12,7 @@ import Support from './AppleSupport.js';
 import IpadBanner from './img/IpadProBanner.jpg';
 import IphoneBanner from './img/Iphone11Banner.jpg';
 import BannerInf from './BannerInf.js';
+import Location from './Location.js';
 
 class BannerSup extends Component{
   render(){
@@ -39,6 +40,7 @@ function App(){
           <Route path="/tv" exact component={Tv}/>
           <Route path="/music" exact component={Music}/>
           <Route path="/support" exact component={Support}/>
+          <Route path="/location" exact component={Location}/>
         </Switch>
       </div>
     </Router>
