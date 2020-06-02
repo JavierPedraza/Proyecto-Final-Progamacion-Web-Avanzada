@@ -3,4 +3,7 @@
 	width: 99%;
 	height: 500px;
 	background-image: url(./img/MacPro.jpg);
+	color:white;
+	-webkit-text-stroke: 1px black;
+	font-size: 30px;
 }
