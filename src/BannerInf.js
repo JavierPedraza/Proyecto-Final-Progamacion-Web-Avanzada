@@ -20,4 +20,4 @@ function BannerInf(){
 	);
 }
 
-export default Social
+export default Social;

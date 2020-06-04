@@ -50,7 +50,6 @@ function App(){
 const index = () => (
   <div>
     <Princ/>
-    <BannerInf/>
   </div>
 );
 
